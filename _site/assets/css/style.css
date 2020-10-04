@@ -79,9 +79,9 @@ li { margin: 0 0 15px 0; }
 /* Clear floats after image containers */
 .video_row::after { content: ""; clear: both; display: table; }
 
-.nash_dom_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: left; margin-right: 5%; }
+.nash_dom_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: left; margin-right: 3%; }
 
-.mountains_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: right; margin-left: 5%; }
+.mountains_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: right; margin-left: 3%; }
 
 .social-icons { text-align: center; }
 

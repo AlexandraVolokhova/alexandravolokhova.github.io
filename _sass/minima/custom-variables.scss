@@ -1,0 +1,118 @@
+// Placeholder to allow overriding predefined variables smoothly.
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: center;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.container_bio {
+  width:100%;
+  height:auto;
+  padding:0%;
+  margin-bottom:2%;
+
+  .left_column {
+  float: left;
+  width: 45%;
+  margin: 3%;
+}
+
+  .right_column {
+  float: left;
+  width: 45%;
+  margin: 2%;
+}
+
+}
+
+.colored_text {
+  color: $colored-text-color;
+  //font-weight: bold;
+}
+
+hr {
+  border: 2px solid $header-bg-color;
+  border-radius: 5px;
+}
+
+.no_bullet_ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 0 15px 0;
+}
+
+.pub_item{
+  color: grey;
+  border-left: 1px solid $main-light-color;
+  padding-left: 1.5%;
+  border-radius: 5px;
+}
+
+
+.video_column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  font-size: 80%;
+}
+
+/* Clear floats after image containers */
+.video_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nash_dom_photo {
+  display: table-cell;
+  vertical-align: center;
+  width: 43%;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+  margin-right: 5%;
+}
+
+.mountains_photo {
+  display: table-cell;
+  vertical-align: center;
+  width: 45%;
+  height: auto;
+  border-radius: 10%;
+  float: right;
+  margin-right: 5%;
+}
+
+.social-icons {
+  text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 0px;
+
+}
+.social-icons li img.scholar {
+  width:35px;
+  height:35px;
+  margin-right: 0px;
+}

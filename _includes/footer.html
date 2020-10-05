@@ -2,35 +2,41 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <!--<a href="{{ 'feed.xml' | relative_url }}">-->
-            <!--<svg class="svg-icon orange">-->
-              <!--<use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>-->
-            <!--</svg><span>Subscribe</span>-->
-          <!--</a>-->
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
+    <div class="copyright">
+      <small> 2020 &copy; Alexandra Volokhova
     </div>
 
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
+    <!--<small>&copy; Copyright 2020, Alexandra Volokhova</small>-->
+
+    <!--<div class="footer-col-wrapper">-->
+      <!--<div class="footer-col">-->
+        <!--<p class="feed-subscribe">-->
+          <!--&lt;!&ndash;<a href="{{ 'feed.xml' | relative_url }}">&ndash;&gt;-->
+            <!--&lt;!&ndash;<svg class="svg-icon orange">&ndash;&gt;-->
+              <!--&lt;!&ndash;<use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>&ndash;&gt;-->
+            <!--&lt;!&ndash;</svg><span>Subscribe</span>&ndash;&gt;-->
+          <!--&lt;!&ndash;</a>&ndash;&gt;-->
+        <!--</p>-->
+      <!--{%- if site.author %}-->
+        <!--<ul class="contact-list">-->
+          <!--{% if site.author.name -%}-->
+            <!--<li class="p-name">{{ site.author.name | escape }}</li>-->
+          <!--{% endif -%}-->
+          <!--{% if site.author.email -%}-->
+            <!--<li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>-->
+          <!--{%- endif %}-->
+        <!--</ul>-->
+      <!--{%- endif %}-->
+      <!--</div>-->
+      <!--<div class="footer-col">-->
+        <!---->
+        <!--<p>{{ site.description | escape }}</p>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="social-links">-->
+      <!--{%- include social.html -%}-->
+    <!--</div>-->
 
   </div>
 

@@ -58,7 +58,7 @@
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-.author__avatar { display: table-cell; vertical-align: center; width: 87%; height: auto; border-radius: 10%; float: left; margin-right: 0%; margin-bottom: 5%; }
+.author__avatar { display: table-cell; vertical-align: center; width: 35%; height: auto; border-radius: 10%; float: left; margin-right: 5%; margin-bottom: 5%; }
 
 .container_bio { width: 100%; height: auto; padding: 0%; margin-bottom: 2%; }
 .container_bio .left_column { float: left; width: 45%; margin: 3%; }

@@ -64,6 +64,8 @@
 .container_bio .left_column { float: left; width: 35%; margin: 3%; }
 .container_bio .right_column { float: left; width: 55%; margin: 2%; }
 
+.fire_photo { display: table-cell; vertical-align: center; width: 35%; height: auto; border-radius: 10%; float: left; margin-right: 5%; margin-bottom: 5%; }
+
 .container_activity { width: 100%; height: auto; padding: 0%; margin-bottom: 2%; }
 
 .colored_text { color: rgba(0, 102, 0, 0.9); }
@@ -82,8 +84,6 @@ li { margin: 0 0 15px 0; }
 .video_row::after { content: ""; clear: both; display: table; }
 
 .nash_dom_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: left; margin-right: 3%; }
-
-.fire_photo { display: table-cell; vertical-align: center; width: 35%; height: auto; border-radius: 10%; float: left; margin-right: 3%; }
 
 .mountains_photo { display: table-cell; vertical-align: center; width: 43%; height: auto; border-radius: 10%; float: right; margin-left: 3%; }
 

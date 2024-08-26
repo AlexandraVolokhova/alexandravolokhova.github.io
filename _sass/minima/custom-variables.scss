@@ -14,7 +14,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: center;
-  width: 100%;
+  width: 35%;
   height: auto;
   border-radius: 10%;
   float: left;
@@ -41,6 +41,12 @@
 }
 
 }
+
+.container_activity {
+  width:100%;
+  height:auto;
+  padding:0%;
+  margin-bottom:2%;}
 
 .colored_text {
   color: $colored-text-color;
